@@ -1,0 +1,327 @@
+:root {
+
+    --blue: #7EB1F7;
+    --orange: #F7C159;
+    --cyan: #72F1F7;
+    --red: #F7968B;
+    --green: #51C48A;
+    --dark-grey: #484A4A;
+    --medium-grey: #7F8282;
+    --light-grey: #B9BDBD;
+    --light: #EBF0F0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-grey);
+}
+
+/* Texte */
+
+    /* Titres */
+
+.demo-title {
+    padding-left: 25rem;
+    margin: 5rem 0 5rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .2rem;
+}
+h1 {
+    font-size: 51px;
+}
+h2 {
+    font-size: 42px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 28px;
+}
+h5 {
+    font-size: 22px;
+}
+h6 {
+    font-size: 18px;
+}
+
+    /* Texte normal */
+
+.parag {
+    width: 20rem;
+    margin-left: 5rem;
+}
+p,
+blockquote,
+strong,
+small,
+button {
+    font-size: 14px;
+    font-family: 'Farro', sans-serif;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    line-height: 1.3rem;
+}
+strong {
+    font-size: 16px;
+    font-weight: 700;
+}
+blockquote {
+    border-left: 2px solid var(--light);
+    padding-left: 1rem;
+}
+small {
+    font-size: 10px;
+    letter-spacing: .02rem;
+}
+
+.icono {
+    font-size: 64px;
+    letter-spacing: 3rem;
+}
+
+/* Agencement */
+
+.centered {
+    margin: auto;
+}
+.box-full-w {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+}
+.col {
+    flex-direction: column;
+}
+.mb-2 {
+    margin-bottom: 2em;
+}
+.ml-3 {
+    margin-left: 3em;
+}
+
+/* Couleurs */
+
+    /* Boutons */
+
+
+    /* BG */
+
+.primary {
+    background-color: var(--blue);
+}
+.secondary {
+    background-color: var(--medium-grey);
+}
+.success {
+    background-color: var(--green);
+}
+.warning {
+    background-color: var(--orange);
+}
+.danger {
+    background-color: var(--red);
+}
+.info {
+    background-color: var(--cyan);
+}
+
+    /* Texte */
+
+.text-primary {
+    color: var(--blue);
+}
+.text-muted {
+    color: var(--medium-grey);
+}
+.text-success {
+    color: var(--green);
+}
+.text-warning {
+    color: var(--orange);
+}
+.text-danger {
+    color: var(--red);
+}
+.text-info {
+    color: var(--cyan);
+}
+.text-light {
+    color: var(--light);
+}
+.text-dark {
+    color: var(--dark-grey);
+}
+
+/* Boutons */
+
+    /* Pleins - couleurs */
+
+.btn-primary {
+    background-color: var(--blue);
+    color: var(--light)
+}
+.btn-secondary {
+    background-color: var(--medium-grey);
+    color: var(--light)
+}
+.btn-success {
+    background-color: var(--green);
+    color: var(--light)
+}
+.btn-warning {
+    background-color: var(--orange);
+    color: var(--dark-grey)
+}
+.btn-danger {
+    background-color: var(--red);
+    color: var(--light)
+}
+.btn-info {
+    background-color: var(--cyan);
+    color: var(--dark-grey)
+}
+
+    /* Contours - couleurs */
+        
+.btn-outline-primary {
+    background-color: transparent;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+.btn-outline-secondary {
+    background-color: transparent;
+    border: 2px solid var(--light-grey);
+    color: var(--light-grey);
+}
+.btn-outline-success {
+    background-color: transparent;
+    border: 2px solid var(--green);
+    color: var(--green);
+}
+.btn-outline-warning {
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+}
+.btn-outline-danger {
+    background-color: transparent;
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+.btn-outline-info {
+    background-color: transparent;
+    border: 2px solid var(--cyan);
+    color: var(--cyan);
+}
+.btn-outline-primary:hover {
+    background-color: var(--blue);
+    color: var(--light);
+}
+.btn-outline-secondary:hover {
+    background-color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+    color: var(--light);
+}
+.btn-outline-success:hover {
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    color: var(--light);
+}
+.btn-outline-warning:hover {
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    color: var(--dark-grey);
+}
+.btn-outline-danger:hover {
+    background-color: var(--red);
+    border: 2px solid var(--red);
+    color: var(--light);
+}
+.btn-outline-info:hover {
+    background-color: var(--cyan);
+    border: 2px solid var(--cyan);
+    color: var(--dark-grey);
+}
+
+    /* Structure */
+
+.btn,
+.btn-outline,
+.btn-sm,
+.btn-lg,
+.btn-sm-outline,
+.btn-lg-outline {
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 .3rem 0 .3rem;
+    font-size: 18px;
+    letter-spacing: .03rem;
+    position: relative;
+}
+.btn,
+.btn-sm,
+.btn-lg {
+    border: none;
+}
+.btn-sm,
+.btn-sm-outline {
+    padding: .5rem 1rem;
+    font-size: 14px;
+}
+.btn-lg,
+.btn-lg-outline {
+    padding: 2rem 2.5rem;
+    font-size: 22px;
+}
+.btn::before,
+.btn-sm::before,
+.btn-lg::before {
+    content: '';
+    background: rgba(0,0,0,0);
+    display: block;
+    position:absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: linear;
+    cursor: pointer;
+
+}
+.btn:hover::before,
+.btn-sm:hover::before,
+.btn-lg:hover::before {
+    background: rgba(0,0,0,0.2);
+}
+
+/* Molécules */
+
+.card {
+    margin: 0 30px ;
+    width: 10em;
+    border: solid 1px var(--light);
+    border-radius: 20px;
+}
+.card-top {
+    border-radius: 20px 20px 0 0;
+    padding: 0px 30px 30px 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8em;
+}
+.card-text {
+    padding: 1em 1em;
+}

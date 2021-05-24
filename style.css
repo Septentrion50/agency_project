@@ -283,6 +283,7 @@ small {
     font-size: 18px;
     letter-spacing: .03rem;
     position: relative;
+    cursor: pointer;
 }
 .btn,
 .btn-sm,
@@ -312,7 +313,6 @@ small {
     left: 0;
     border-radius: 5px;
     transition: linear;
-    cursor: pointer;
 
 }
 .btn:hover::before,

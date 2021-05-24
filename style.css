@@ -16,6 +16,8 @@ body {
     background-color: var(--dark-grey);
 }
 
+/* ------------------------------------------------ */
+
 /* Texte */
 
     /* Titres */
@@ -88,6 +90,8 @@ small {
     letter-spacing: 3rem;
 }
 
+/* ------------------------------------------------ */
+
 /* Agencement */
 
 .centered {
@@ -109,10 +113,9 @@ small {
     margin-left: 3em;
 }
 
+/* ------------------------------------------------ */
+
 /* Couleurs */
-
-    /* Boutons */
-
 
     /* BG */
 
@@ -161,6 +164,8 @@ small {
 .text-dark {
     color: var(--dark-grey);
 }
+
+/* ------------------------------------------------ */
 
 /* Boutons */
 
@@ -305,6 +310,8 @@ small {
 .btn-lg:hover::before {
     background: rgba(0,0,0,0.2);
 }
+
+/* ------------------------------------------------ */
 
 /* Molécules */
 
